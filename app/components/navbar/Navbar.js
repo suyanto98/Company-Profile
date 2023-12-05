@@ -9,7 +9,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState("menu");
 
   const ToggleMenu = () => {
-    const list = document.querySelector("#toggleMenu");
+    const list = document.querySelector("#ToggleMenu");
 
     if (menu === "menu") {
       setMenu("close");
@@ -41,7 +41,7 @@ const Navbar = () => {
               <FaBars onClick={ToggleMenu} />
             </span>
           </div>
-          <div id="toggleMenu" className="p-5 z-10 bg-white/80 absolute backdrop-blur py-5 opacity-0 w-full top[-400px] transition-all ease-in duration-500 md:p-0 md:flex md:items-center md-space-x-8 md:static md:w-auto md:opacity-100 ">
+          <div id="ToggleMenu" className="p-5 z-10 bg-white/80 absolute backdrop-blur py-5 opacity-0 w-full top[-400px] transition-all ease-in duration-500 md:p-0 md:flex md:items-center md-space-x-8 md:static md:w-auto md:opacity-100 ">
             <div className="md:my-0">
               <Link
                 href="/"
