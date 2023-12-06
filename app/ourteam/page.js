@@ -45,8 +45,8 @@ const OurTeams = () => {
         </div>
       </section>
 
-      <section className="m-0 p-0 box-border transition-all duration-200 ease-linear mb-12">
-        <div className="flex justify-center flex-wrap">
+      <section className="flex justify-center m-15 box-border transition-all duration-200 ease-linear mb-12">
+        <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {userData.map((user, index) => (
             <div
               className="h-[450px] w-[290px] m-[20px] shadow-md rounded-[10px] overflow-hidden text-center bg-gray-100"
